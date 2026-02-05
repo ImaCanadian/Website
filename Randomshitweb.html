@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Setting the main lana-->
+<head>
+    <meta charset="UTF-8"> <!--Setting for metadata-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--????-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--helps for different browsers-->
+    <link rel="stylesheet" type="text/css" href="styles.css"><!--To connect a css file to an html file-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                  <!--For the main font im using-->
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    <title>linked</title> <!--Tab name-->
+    <style>
+        body{
+            background-image: url(images/Branches.webp);
+        }
+
+        p{
+            color: burlywood;
+        }
+
+        a{
+            color: rgb(122, 81, 31);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="mainlinks" style="margin-top: 720px; margin-left: 450px;">
+            <p id="1" onmousedown="Mainlinkdis()">Links</p>
+        </div>
+
+        <div id="branch1" class="closeupbranch" style="margin-top: 720px; margin-left: 370px;">
+            <a href="https://www.thedictionaryofobscuresorrows.com/" 
+            style="padding: 10px;" target="_blank">The Dictionary of Obscure Sorrows</a>
+            <a href="https://www.urbandictionary.com/" 
+            style="padding: 10px;" target="_blank">Urban Dictionary</a>
+        </div>
+
+
+        <div class="Artlinks" style="margin-top: 520px; margin-left: 600px;">
+            <p id="2" onmousedown="Artlinkdis()">Video's</p>
+        </div>
+
+        <div id="branch2" class="closeupbranch" 
+        style="margin-top: 500px; margin-left: 520px;">
+            <a href="https://www.youtube.com/watch?v=wJWksPWDKOc&list=LL&index=73" 
+            style="padding: 10px;" target="_blank">The Caretaker</a>
+        </div>
+
+        
+        <div class="Worklinks" style="font-size: 140%;">
+            <p id="3" onmousedown="Worklinkdis()">Links to stuff I use</p>
+        </div>
+
+        <div id="branch3" class="closeupbranch" 
+        style="margin-top: 300px; margin-left: 700px;">
+            <a href="https://windowsxlite.com/" 
+            style="padding: 10px;" target="_blank" 
+            title="WARNING. This is just what I USE and not what I Recommend for YOU to use, do your own research on this topic. :side note this is on my PC:">
+            WindowsXLite</a>
+            <a href="https://linuxmint.com/" 
+            style="padding: 10px;" target="_blank" 
+            title="WARNING. This is just what I USE and not what I Recommend for YOU to use, do your own research on this topic :side note this is on my Old Gaming Laptop:">
+            Linuxmint</a>
+        </div>
+        
+
+        <div class="Gamelinks">
+            <p id="4" onmousedown="Gamelinkdis()">Archive's</p>
+        </div>
+
+        <div id="branch4" class="closeupbranch" 
+        style="margin-top: 530px; margin-left: 1090px;">
+            <a href="https://www.asciiart.eu/" 
+            style="padding: 10px;" target="_blank">ASCII Art Archive</a>
+        </div>
+
+
+        <div class="Otherlinks">
+            <p id="5" onmousedown="Otherlinkdis()">Unimportant Important Websites</p>
+        </div>
+
+        <div id="branch5" class="closeupbranch" 
+        style="margin-top: 780px; margin-left: 1290px;">
+            <a href="https://www.websitecarbon.com/" 
+            style="padding: 10px;" target="_blank">Web Carbon Calc</a>
+        </div>
+    </div>
+<audio loop autoplay>
+    <source src="Sounds/birds-chirping-111796.mp3" type="audio/mp3">
+</audio>
+<script>
+    function Mainlinkdis() {
+        document.getElementById('1').style.display='none'
+        document.getElementById('branch1').style.display='block'
+    }
+    function Artlinkdis() {
+        document.getElementById('2').style.display='none'
+        document.getElementById('branch2').style.display='block'
+    }
+    function Worklinkdis() {
+        document.getElementById('3').style.display='none'
+        document.getElementById('branch3').style.display='block'
+    }
+    function Gamelinkdis() {
+        document.getElementById('4').style.display='none'
+        document.getElementById('branch4').style.display='block'
+    }
+    function Otherlinkdis() {
+        document.getElementById('5').style.display='none'
+        document.getElementById('branch5').style.display='block'
+    }
+</script>
+</body>
+</html>

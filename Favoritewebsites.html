@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Setting the main lana-->
+<head>
+    <meta charset="UTF-8"> <!--Setting for metadata-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--????-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--helps for different browsers-->
+    <link rel="stylesheet" type="text/css" href="styles.css"><!--To connect a css file to an html file-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                  <!--For the main font im using-->
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    <title>linked</title> <!--Tab name-->
+    <style>
+        body{
+            background-image: url(images/Branches.webp);
+        }
+
+        p{
+            color: burlywood;
+        }
+
+        a{
+            color: rgb(122, 81, 31);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="mainlinks">
+            <p id="1" onmousedown="Mainlinkdis()">Best websites</p>
+        </div>
+
+        <div id="branch1" class="closeupbranch">
+            <a href="https://images.google.com/" 
+            style="padding: 10px;;" target="_blank">Google Images</a>
+            <a href="https://kaisercatcinema.com/en-ca" 
+            style="padding: 10px;;" target="_blank">Kaiser Cat Cinema</a>
+            <a href="https://web.archive.org/" 
+            style="padding: 10px;;" target="_blank">WayBackMachine</a>
+            <a href="https://somafm.com/" 
+            style="padding: 10px;;" target="_blank">Somafm</a>
+        </div>
+
+
+        <div class="Artlinks" style="font-size: 200%; margin-left: 550px;">
+            <p id="2" onmousedown="Artlinkdis()">Community projects</p>
+        </div>
+
+        <div id="branch2" class="closeupbranch" 
+        style="margin-top: 500px; margin-left: 520px;">
+            <a href="https://backrooms-wiki.wikidot.com/" 
+            style="padding: 10px;" target="_blank">Backrooms Wiki</a>
+            <a href="https://tcrf.net/The_Cutting_Room_Floor" 
+            style="padding: 10px;" target="_blank">The Cutting Room Floor</a>
+            <a href="https://scp-wiki.wikidot.com/" 
+            style="padding: 10px;" target="_blank">SCP Foundation</a>
+            <a href="https://districts.nekoweb.org/" 
+            style="padding: 10px;" target="_blank">The Neko Districts</a>
+        </div>
+
+        
+        <div class="Worklinks">
+            <p id="3" onmousedown="Worklinkdis()">Story/Horror Websites</p>
+        </div>
+
+        <div id="branch3" class="closeupbranch" 
+        style="margin-top: 300px; margin-left: 700px;">
+            <a href="https://smlwiki.com/" 
+            style="padding: 10px;" target="_blank">Sml Wiki</a>
+            <a href="https://www.thewackywatch.com/" 
+            style="padding: 10px;" target="_blank">thewackywatch</a>
+        </div>
+        
+
+        <div class="Gamelinks">
+            <p id="4" onmousedown="Gamelinkdis()">Favorite Forums</p>
+        </div>
+
+        <div id="branch4" class="closeupbranch" 
+        style="margin-top: 530px; margin-left: 1090px;">
+            <a href="https://www.alternatehistory.com/forum/" 
+            style="padding: 10px;" target="_blank">Alternate History</a>
+            <a href="https://hypixel.net/" 
+            style="padding: 10px;" target="_blank">Hypixel</a>
+        </div>
+
+
+        <div class="Otherlinks">
+            <p id="5" onmousedown="Otherlinkdis()">Favorite Resources</p>
+        </div>
+
+        <div id="branch5" class="closeupbranch" 
+        style="margin-top: 780px; margin-left: 1290px;">
+            <a href="https://www.w3schools.com/" 
+            style="padding: 10px;;" target="_blank">W3Schools</a>
+            <a href="https://flagmaker-print.com/" 
+            style="padding: 10px;;" target="_blank">Flag Maker</a>
+            <a href="https://isthereanydeal.com/" 
+            style="padding: 10px;" target="_blank">IsThereAnyDeal</a>
+        </div>
+    </div>
+<audio loop autoplay>
+    <source src="Sounds/birds-chirping-111796.mp3" type="audio/mp3">
+</audio>
+<script>
+    function Mainlinkdis() {
+        document.getElementById('1').style.display='none'
+        document.getElementById('branch1').style.display='block'
+    }
+    function Artlinkdis() {
+        document.getElementById('2').style.display='none'
+        document.getElementById('branch2').style.display='block'
+    }
+    function Worklinkdis() {
+        document.getElementById('3').style.display='none'
+        document.getElementById('branch3').style.display='block'
+    }
+    function Gamelinkdis() {
+        document.getElementById('4').style.display='none'
+        document.getElementById('branch4').style.display='block'
+    }
+    function Otherlinkdis() {
+        document.getElementById('5').style.display='none'
+        document.getElementById('branch5').style.display='block'
+    }
+</script>
+</body>
+</html>

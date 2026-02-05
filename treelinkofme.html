@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Setting the main lana-->
+<head>
+    <meta charset="UTF-8"> <!--Setting for metadata-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--????-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--helps for different browsers-->
+    <link rel="stylesheet" type="text/css" href="styles.css"><!--To connect a css file to an html file-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                  <!--For the main font im using-->
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    <title>linked</title> <!--Tab name-->
+    <style>
+        body{
+            background-image: url(images/Branches.webp);
+        }
+
+        p{
+            color: burlywood;
+        }
+
+        a{
+            color: rgb(122, 81, 31);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="mainlinks">
+            <p id="1" onmousedown="Mainlinkdis()">Main links</p>
+        </div>
+
+        <div id="branch1" class="closeupbranch">
+            <a href="https://www.youtube.com/@ImaCanadian" 
+            style="padding: 10px;" target="_blank">Youtube</a>
+            <a href="https://bsky.app/profile/imacanadian.bsky.social" 
+            style="padding: 10px;;" target="_blank">Bluesky</a>
+            <a href="https://www.twitch.tv/imacanadiannn" 
+            style="padding: 10px;" target="_blank">Twitch</a>
+        </div>
+
+
+        <div class="Artlinks">
+            <p id="2" onmousedown="Artlinkdis()">Art Profile links</p>
+        </div>
+
+        <div id="branch2" class="closeupbranch" 
+        style="margin-top: 500px; margin-left: 520px;">
+            <a href="https://imancanadian.newgrounds.com/" 
+            style="padding: 10px;" target="_blank">NewGrounds</a>
+            <a href="https://ca.pinterest.com/ImaCanadiann/_profile/" 
+            style="padding: 10px;" target="_blank">Pinterest</a>
+            <a href="https://www.pixiv.net/en/users/118988088" 
+            style="padding: 10px;" target="_blank">Pixiv</a>
+            <a href="https://www.tumblr.com/blog/imancanadian-blog" 
+            style="padding: 10px;" target="_blank">Tumblr</a>
+            <a href="https://www.deviantart.com/imancanadian" 
+            style="padding: 10px;" target="_blank">Deviant Art</a>
+        </div>
+
+        
+        <div class="Worklinks">
+            <p id="3" onmousedown="Worklinkdis()">Projects/Game/Mod links</p>
+        </div>
+
+        <div id="branch3" class="closeupbranch" 
+        style="margin-top: 300px; margin-left: 700px;">
+            <a href="https://github.com/ImaCanadian" 
+            style="padding: 10px;" target="_blank">Github</a>
+            <a href="https://gamebanana.com/members/5022533" 
+            style="padding: 10px;" target="_blank">GameBanana</a>
+            <a href="https://imacanadian.itch.io/" 
+            style="padding: 10px;" target="_blank">Itch.io</a>
+            <a href="https://gamejolt.com/@ImanCanadian" 
+            style="padding: 10px;" target="_blank">GameJolt</a>
+            <a href="https://scratch.mit.edu/users/Imancanadian/" 
+            style="padding: 10px;" target="_blank">Scratch</a>
+        </div>
+        
+
+        <div class="Gamelinks">
+            <p id="4" onmousedown="Gamelinkdis()">Gaming links</p>
+        </div>
+
+        <div id="branch4" class="closeupbranch" 
+        style="margin-top: 530px; margin-left: 1090px;">
+            <a href="https://steamcommunity.com/id/imverycanadian/" 
+            style="padding: 10px;" target="_blank">Steam</a>
+            <a href="https://www.roblox.com/users/622475960/profile" 
+            style="padding: 10px;" target="_blank">Roblox</a>
+            <a href="https://hypixel.net/members/imacanadiann.6055982/" 
+            style="padding: 10px;" target="_blank">Hypixel</a>
+            <a href="https://www.chess.com/member/imacanadiann" 
+            style="padding: 10px;" target="_blank">Chess</a>
+        </div>
+
+
+        <div class="Otherlinks">
+            <p id="5" onmousedown="Otherlinkdis()">Other links</p>
+        </div>
+
+        <div id="branch5" class="closeupbranch" 
+        style="margin-top: 780px; margin-left: 1290px;">
+            <a href="https://imgur.com/user/imancanadian/posts" 
+            style="padding: 10px;" target="_blank">Imgur</a>
+        </div>
+    </div>
+<audio loop autoplay>
+    <source src="Sounds/birds-chirping-111796.mp3" type="audio/mp3">
+</audio>
+<script>
+    function Mainlinkdis() {
+        document.getElementById('1').style.display='none'
+        document.getElementById('branch1').style.display='block'
+    }
+    function Artlinkdis() {
+        document.getElementById('2').style.display='none'
+        document.getElementById('branch2').style.display='block'
+    }
+    function Worklinkdis() {
+        document.getElementById('3').style.display='none'
+        document.getElementById('branch3').style.display='block'
+    }
+    function Gamelinkdis() {
+        document.getElementById('4').style.display='none'
+        document.getElementById('branch4').style.display='block'
+    }
+    function Otherlinkdis() {
+        document.getElementById('5').style.display='none'
+        document.getElementById('branch5').style.display='block'
+    }
+</script>
+</body>
+</html>
