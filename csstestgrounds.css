@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 500px;
+}
+
+.TestMain {
+    border: 5px;
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxblock{
+    background-color: aquamarine;
+    width: 150px;
+    height: 100px;
+    border: 10px lightblue solid;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px;
+}
+
+.infintescroll{
+    white-space: nowrap;
+}

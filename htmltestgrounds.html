@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Setting the main lana-->
+<head>
+    <meta charset="UTF-8"> <!--Setting for metadata-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--????-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--helps for different browsers-->
+    <link rel="stylesheet" type="text/css" href="csstestgrounds.css"><!--To connect a css file to an html file-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                  <!--For the main font im using-->
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    <title>Test</title> <!--Tab name-->
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        .devil{
+            display: none;
+        }
+
+        .boobies{
+            display: none;
+        }
+
+        .showingwhy1:hover + .devil{
+            display: block;
+        }
+
+        .showingwhy2:hover + .boobies{
+            display: block;
+        }
+    </style>
+</head>
+<body id="button">
+    <div class="main">
+        <p id="slur" style="display: none;">fuck you</p>
+        <div id="Hello" class="TestMain">
+            <p id="Hello">Hello!</p>
+        </div>
+        <button id="button1" onclick="displaynone()">
+            disappear
+        </button>
+        <button id="button2" onclick="displayblock()">
+            ok
+        </button>
+        <button>
+            <h1 id="small" onclick="changetoh2()">
+                im a big
+            </h1>
+        </button>
+    </div>
+<div class="showingwhy1"><p>^</p></div>
+<div class="devil">
+    <p>devil</p>
+</div>
+<div class="showingwhy2"><p>^</p></div>
+<div class="boobies">
+    <p>boobies</p>
+</div>
+
+<div style="white-space: pre-line;">
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+</div>
+<br><br><br>
+<div style="white-space: break-spaces;">
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+    <div class="boxblock"></div>
+</div>
+<script src="jstestgrounds.js" defer></script>
+</body> <!--Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.-->
+</html>
