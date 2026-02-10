@@ -45,16 +45,15 @@ p, h1, h2, h3, a {
   height: 98vh;
 }
 
+.warningbox {
+  padding: 10px;
+  font-size: 200%;
+  background-color: gainsboro;
+}
+
 .warningtitle {
   display: flex;
   justify-content: center;
-}
-
-.warningbox {
-  padding: 10px;
-  text-align: center;
-  font-size: 200%;
-  background-color: gainsboro;
 }
 /*^*/
 
@@ -67,13 +66,9 @@ p, h1, h2, h3, a {
 }
 
 .Welcomemessage{
-  min-height: 300px;
-  padding: 10px;
-  border: 4px;
-  border-style: dashed;
-  border-color: gray;
-  text-align: center;
-  font-size: 200%;
+  padding: 4px;
+  border: 4px gray dashed;
+  font-size: 150%;
   background-color: gainsboro;
 }
 /*^*/
@@ -104,20 +99,8 @@ p, h1, h2, h3, a {
   place-items: center;
 }
 
-.mapleleaf1 {
-  height: 50px;
-  width: 50px;
-}
-
-.mapleleaf2 {
-  height: 50px;
-  width: 50px;
-  margin-left: 94%;
-}
-
 .Second {
   display: flex;
-  justify-content: center;
   font-size: 150%;
 }
 
@@ -143,6 +126,7 @@ p, h1, h2, h3, a {
 /*^*/
 
 /*about that canadian pages*/
+/*-Main About page title-*/
 .Aboutmain {
   display: flex;
   justify-content: center;
@@ -152,36 +136,41 @@ p, h1, h2, h3, a {
   place-items: center;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-size: 500%;
+  font-size: 300%;
 }
+/*-^-*/
+
 /*-Info section-*/
 .infomation {
-  background-color: lightskyblue;
-  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 400px;
 }
 
 .mainme {
-  height: 350px;
-  padding-left: 20px;
-  border: 4px;
-  border-style: solid;
+  min-width: 400px;
+  padding: 8px;
+  border: 4px solid;
+  background-color: lightskyblue;
   font-size: 150%;
 }
 
 .sectionlist {
-  height: 600px;
-  padding-top: 50px;
-  border: 4px;
-  border-style: solid;
-  text-align: center;
+  max-width: 400px;
+  padding: 8px;
+  border: 4px solid;
+  background-color: lightskyblue;
   font-size: 200%;
 }
 
 .ldis {
+  min-width: 400px;
+  padding: 8px;
   height: 200px;
-  border: 4px;
-  border-style: solid;
-  text-align: center;
+  border: 4px solid;
+  background-color: lightskyblue;
 }
 /*-^-*/
 
@@ -189,8 +178,7 @@ p, h1, h2, h3, a {
 .aboutme {
   max-width: 800px;
   padding: 15px;
-  border: 4px;
-  border-style: solid;
+  border: 4px solid;
   margin: auto;
   text-align: center;
   font-size: 150%;
@@ -199,13 +187,6 @@ p, h1, h2, h3, a {
 /*-^-*/
 
 /*-PFP page-*/
-.beesection{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 .Story{
   padding: 5px;
   border-style: dashed;
@@ -213,102 +194,56 @@ p, h1, h2, h3, a {
   background-color: teal;
 }
 
-.showingwhy1{
+.showingwhy{
   position: absolute;
-  width: 150px;
   height: 115px;
-  border: 5px;
-  border-color: red;
-  margin-top: 280px;
-  margin-left: 435px;
-  text-align: center;
-}
-
-.showingwhy2{
-  position: absolute;
-  width: 100px;
-  height: 115px;
-  border: 5px;
-  border-color: red;
-  margin-top: 280px;
-  margin-left: 540px;
+  border: 5px red;
   text-align: center;
 }
 
 .devil{
+  display: none;
   position: absolute;
   width: 150px;
   height: 115px;
-  margin-top: 280px;
-  margin-left: 435px;
-  border: 5px;
-  border-style: solid;
-  border-color: red;
-}
-
-.boobies{
-  position: absolute;
-  width: 100px;
-  height: 115px;
-  margin-top: 280px;
-  margin-left: 535px;
-  border: 5px;
-  border-style: solid;
-  border-color: red;
-}
-
-.other{
-  flex-direction: row;
-}
-
-.imageandstory{
-  overflow-y: scroll;
-  width: 750px;
-  height: 350px;
-  padding: 5px;
-  border: 4px;
-  border-style: solid;
-  text-align: center;
-  background-color: lightskyblue;
+  border: 5px red solid;
 }
 /*-^-*/
 
+/*PFP page*/
+/*-Each picture representing each Alias-*/
 .Kreeperk{
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
   background-image: url(images/Wiiu.webp);
 }
 
 .ImanCanadian{
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
   background-image: url(images/NewWorld.webp);
 }
 
 .ImaCanadian{
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
   background-image: url(images/EnglishDic.webp);
 }
+/*-^-*/
 
 .textline{
   max-width: 150px;
   height: 700px;
   padding: 5px;
-  border: 4px;
-  border-style: solid;
+  border: 3px dotted;
   margin-right: auto;
   background-color: lightskyblue;
 }
-/**/
-
-.linkmain{
-  background-image: url(images\Linkspage.webp);
-}
-
+/*^*/
+/*Links main page*/
 .linksofme{
   position: absolute;
   width: 800px;
@@ -416,7 +351,7 @@ p, h1, h2, h3, a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 350px;
+  width: 371px;
   height: 400px;
   border: 7px;
   border-style: double;
@@ -428,7 +363,7 @@ p, h1, h2, h3, a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 350px;
+  width: 371px;
   height: 400px;
   border: 7px;
   border-style: double;
@@ -461,3 +396,23 @@ p, h1, h2, h3, a {
   background-color: white;
 }
 /*^*/
+
+.sitemap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(184, 100%, 46%);
+  width: 1920px;
+  height: 210px;
+  padding: 20px;
+  border: 6px hsl(184, 100%, 64%);
+  border-style: groove none none none;
+}
+
+.siteboxes{
+  background-color: aquamarine;
+  width: 200px;
+  height: min-content;
+  border: 7px greenyellow groove;
+  border-radius: 8px;
+}
