@@ -11,7 +11,7 @@
     <title>News</title> <!--Tab name-->
     <style>
         body{
-            background-color: gray;
+            background-color: rgb(20, 20, 20);
             zoom: 125%;
         }
 
@@ -22,9 +22,9 @@
 </head>
 <body>
     <br>
-    <div class="all">
+    <div>
         <div class="flex">
-            <div class="webnews">
+            <div class="NewsSection" style="background-color: aqua;">
                 <h2>News for/from the website!</h2>
                 <p>
                     Finally setup the news page, but with two sections, one being for news <br>
@@ -38,7 +38,7 @@
                     I finally made my first gif, which is being stored in my waving dude, go take a look.<br>
                 </p>
             </div>
-            <div class="webnews" style="background-color: #B702EE;">
+            <div class="NewsSection" style="background-color: #B702EE;">
                 <h2>News about art!</h2>
                 <p><!--                                                                         |                          -->
                     I need to start using my fl studio more, I got the license right before the sale ended <br>
@@ -51,13 +51,13 @@
             </div>
         </div>
         <div class="flex">
-            <div class="elsenews">
+            <div class="NewsSection" style="background-color: chartreuse;">
                 <h2>News for/from elsewhere!</h2>
                 <div class="flex">
                     <form method="post" action="https://poll.pollcode.com/22874615"><div style="background-color:#B702EE;padding:2px;width:135px;font-family:Times New Roman;font-size:x-small;color:#42FF62;box-shadow: 0px 0px 5px #888;"><div style="padding:2px 0px 4px 2px;"><strong>yo who want me</strong></div><input type="checkbox" name="answer" value="1" id="answer228746151" style="float:left;" /><label for="answer228746151" style="float:left;width:110px;">Trump or Kamala</label><div style="clear:both;height:2px;"></div><input type="checkbox" name="answer" value="2" id="answer228746152" style="float:left;" /><label for="answer228746152" style="float:left;width:110px;">yes or no</label><div style="clear:both;height:2px;"></div><div align="center" style="padding:3px;"><input type="submit" value=" Vote ">&nbsp;<input type="submit" name="view" value=" View "></div><div align="right" style="font-size:10px">pollcode.com <a href="https://pollcode.com/">free polls</a></div></div></form>
                 </div>
             </div>
-            <div class="elsenews" style="background-color: rgb(53, 53, 255);">
+            <div class="NewsSection" style="background-color: rgb(53, 53, 255);">
                 <h2>News about me!</h2>
                 <div class="flex">
                     <p><!--                                                                         |                          -->
@@ -77,7 +77,7 @@
 
 <div class="flex">
 
-    <div id="News1" class="lololol">
+    <div id="News1" class="OpenedNews">
         <p onmousedown="document.getElementById('News1').style.display = 'none';"
          style="position: absolute; margin-top: 0px; margin-left: 970px; font-size: 200%;">X
         </p>
@@ -96,7 +96,7 @@
     </div>
 
 
-    <div id="News2" class="lololol">
+    <div id="News2" class="OpenedNews">
         <p onmousedown="document.getElementById('News2').style.display = 'none';"
          style="position: absolute; margin-top: 0px; margin-left: 970px; font-size: 200%;">X
         </p>
@@ -116,7 +116,7 @@
     </div>
 
 
-    <div id="News3" class="lololol">
+    <div id="News3" class="OpenedNews">
         <p onmousedown="document.getElementById('News3').style.display = 'none';"
          style="position: absolute; margin-top: 0px; margin-left: 970px; font-size: 200%;">X
         </p>
@@ -137,7 +137,7 @@
     </div>
 
 
-    <div id="News4" class="lololol">
+    <div id="News4" class="OpenedNews">
         <p onmousedown="document.getElementById('News4').style.display = 'none';"
          style="position: absolute; margin-top: 0px; margin-left: 970px; font-size: 200%;">X
         </p>
@@ -163,7 +163,7 @@
     </div>
 
 
-    <div id="News5" class="lololol">
+    <div id="News5" class="OpenedNews">
         <p onmousedown="document.getElementById('News5').style.display = 'none';"
          style="position: absolute; margin-top: 0px; margin-left: 970px; font-size: 200%;">X
         </p>
@@ -190,7 +190,7 @@
 
 
 
-    <div id="Else1" class="lololol">
+    <div id="Else1" class="OpenedNews">
         <p onmousedown="document.getElementById('Else1').style.display = 'none';"
          style="position: absolute; margin-top: 0px; margin-left: 970px; font-size: 200%;">X
         </p>
@@ -199,7 +199,7 @@
     </div>
 
 
-    <div id="Else2" class="lololol">
+    <div id="Else2" class="OpenedNews">
         <p onmousedown="document.getElementById('Else2').style.display = 'none';"
          style="position: absolute; margin-top: 0px; margin-left: 970px; font-size: 200%;">X
         </p>
@@ -210,7 +210,7 @@
         </video>
     </div>
 
-    <div id="Else3" class="lololol">
+    <div id="Else3" class="OpenedNews">
         <p onmousedown="document.getElementById('Else3').style.display = 'none';"
          style="position: absolute; margin-top: 0px; margin-left: 970px; font-size: 200%;">X
         </p>
@@ -225,7 +225,7 @@ Also need to maybe start posting actual news instead of random things that come 
 </div>
 
         <div class="flex">
-            <div class="webarchive">
+            <div class="NewsArchive" style="background-color: rgb(59, 167, 255);">
                 <h3 style="padding-right: 10px;">Old web news.</h3><br>
                 <div class="scroll">
                     <div class="oldnewsblock" onmousedown="document.getElementById('News5').style.display = 'block';"><h2>Link update message</h2></div>
@@ -235,7 +235,7 @@ Also need to maybe start posting actual news instead of random things that come 
                     <div class="oldnewsblock" onmousedown="document.getElementById('News1').style.display = 'block';"><h2>First message</h2></div>
                 </div>
             </div>
-            <div class="elsearchive">
+            <div class="NewsArchive" style="background-color: rgb(34, 230, 34);">
                 <h3>Old elsewhere <br>news.</h3>
                 <div class="scroll">
                     <div class="oldnewsblock" onmousedown="document.getElementById('Else3').style.display = 'block';"><h2>First News on Bluesky</h2></div>
@@ -243,12 +243,12 @@ Also need to maybe start posting actual news instead of random things that come 
                     <div class="oldnewsblock" onmousedown="document.getElementById('Else1').style.display = 'block';"><h2>First message on NewGrounds</h2></div>
                 </div>
             </div>
-            <div class="webarchive" style="background-color: #a016ca;">
+            <div class="NewsArchive" style="background-color: #a016ca;">
                 <h3>Old art news</h3><br>
                 <div class="scroll">
                 </div>
             </div>
-            <div class="elsearchive" style="background-color: rgb(45, 45, 189);">
+            <div class="NewsArchive" style="background-color: rgb(45, 45, 189);">
                 <h3>Old personal news</h3>
                 <div class="scroll">
                 </div>
