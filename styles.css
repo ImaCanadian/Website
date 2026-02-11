@@ -1,4 +1,4 @@
-/*                                                        -Order of css goes from width/height--padding--border--margins--text--anything else-*/
+/*                                 -Order of css goes from "display settings"--width/height--padding--border--margins--text--color--anything else-*/
 
 /*Too make the scrollbars go away*/
 html{
@@ -244,62 +244,13 @@ p, h1, h2, h3, a {
 }
 /*^*/
 /*Links main page*/
+/*-Link trees loctions-*/
 .linksofme{
   position: absolute;
   width: 800px;
   height: 800px;
   margin-top: 3000px;
   margin-left: 630px;
-}
-
-.mainlinks{
-  position: absolute;
-  margin-top: 700px;
-  margin-left: 300px;
-  font-size: 500%;
-  transform: rotate(10deg);
-}
-
-.closeupbranch{
-  position: absolute;
-  display: none;
-  width: 300px;
-  height: 150px;
-  padding-top: 25px;
-  border: 10px black solid;
-  margin-top: 700px;
-  margin-left: 300px;
-  font-size: 200%;
-  text-decoration-color: rgb(255, 228, 195);
-  background-image: url(images/tree-bark-750-mm-architextures.webp);
-}
-
-.Artlinks{
-  position: absolute;
-  margin-top: 500px;
-  margin-left: 520px;
-  font-size: 300%;
-  transform: rotate(30deg);
-}
-.Worklinks{
-  position: absolute;
-  margin-top: 460px;
-  margin-left: 790px;
-  font-size: 100%;
-  transform: rotate(20deg);
-}
-.Gamelinks{
-  position: absolute;
-  margin-top: 530px;
-  margin-left: 1090px;
-  font-size: 300%;
-  transform: rotate(-20deg);
-}
-.Otherlinks{
-  position: absolute;
-  margin-top: 880px;
-  margin-left: 1290px;
-  font-size: 200%;
 }
 
 .favoriteweb{
@@ -328,46 +279,74 @@ p, h1, h2, h3, a {
   margin-top: 3000px;
   margin-left: 8000px;
 }
+/*-^-*/
+
+/*-Link branchs-*/
+.closeupbranch{
+  position: absolute;
+  display: none;
+  width: 300px;
+  height: 150px;
+  padding-top: 25px;
+  border: 10px black solid;
+  margin-top: 700px;
+  margin-left: 300px;
+  font-size: 200%;
+  text-decoration-color: rgb(255, 228, 195);
+  background-image: url(images/tree-bark-750-mm-architextures.webp);
+}
+
+.mainlinks{
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 300px;
+  font-size: 500%;
+  transform: rotate(10deg);
+}
+.Artlinks{
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 520px;
+  font-size: 300%;
+  transform: rotate(30deg);
+}
+.Worklinks{
+  position: absolute;
+  margin-top: 460px;
+  margin-left: 790px;
+  font-size: 100%;
+  transform: rotate(20deg);
+}
+.Gamelinks{
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 1090px;
+  font-size: 300%;
+  transform: rotate(-20deg);
+}
+.Otherlinks{
+  position: absolute;
+  margin-top: 880px;
+  margin-left: 1290px;
+  font-size: 200%;
+}
+/*-^-*/
 
 /*News page*/
-.webnews{
+.NewsSection{
   width: 750px;
   height: 500px;
-  border: 10px;
-  border-style: double;
-  background-color: aqua;
+  border: 10px double;
 }
 
-.elsenews{
-  width: 750px;
-  height: 500px;
-  border: 10px;
-  border-style: double;
-  background-color: chartreuse;
-}
-
-.webarchive{
+.NewsArchive{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 371px;
   height: 400px;
-  border: 7px;
-  border-style: double;
-  background-color: rgb(59, 167, 255);
-}
-
-.elsearchive{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 371px;
-  height: 400px;
-  border: 7px;
-  border-style: double;
-  background-color: rgb(34, 230, 34);
+  border: 7px double;
 }
 
 .scroll{
@@ -384,15 +363,13 @@ p, h1, h2, h3, a {
   background-color: white;
 }
 
-.lololol{
+.OpenedNews{
   position: absolute;
   display: none;
   width: 1000px;
   height: 750px;
   padding: 10px;
-  border: 10px;
-  margin-bottom: 125px;
-  border-style: solid;
+  border: 10px solid;
   background-color: white;
 }
 /*^*/
