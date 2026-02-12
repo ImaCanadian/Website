@@ -13,6 +13,7 @@ html{
 /*^*/
 
 /*Font Section*/
+
 p, h1, h2, h3, a {
   font-family: "Jersey 25", sans-serif;
   font-weight: 400;
@@ -21,6 +22,7 @@ p, h1, h2, h3, a {
 /*^*/
 
 /*To quickly center items*/
+
 .flex{
   display: flex;
   justify-content: center;
@@ -38,6 +40,7 @@ p, h1, h2, h3, a {
 /*^*/
 
 /*Warning page*/
+
 .warningmain {
   display: flex;
   justify-content: center;
@@ -58,6 +61,7 @@ p, h1, h2, h3, a {
 /*^*/
 
 /*Intro page*/
+
 .intromain {
   display: flex;
   justify-content: center;
@@ -74,7 +78,9 @@ p, h1, h2, h3, a {
 /*^*/
 
 /*Main page*/
+
 /*-for drop down menu-*/
+
 .dropdown {
   display: grid;
   place-items: center;
@@ -95,6 +101,7 @@ p, h1, h2, h3, a {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 /*-^-*/
+
 .First {
   place-items: center;
 }
@@ -126,7 +133,9 @@ p, h1, h2, h3, a {
 /*^*/
 
 /*about that canadian pages*/
+
 /*-Main About page title-*/
+
 .Aboutmain {
   display: flex;
   justify-content: center;
@@ -141,6 +150,7 @@ p, h1, h2, h3, a {
 /*-^-*/
 
 /*-Info section-*/
+
 .infomation {
   display: flex;
   justify-content: center;
@@ -175,6 +185,7 @@ p, h1, h2, h3, a {
 /*-^-*/
 
 /*-about me page-*/
+
 .aboutme {
   max-width: 800px;
   padding: 15px;
@@ -187,6 +198,7 @@ p, h1, h2, h3, a {
 /*-^-*/
 
 /*-PFP page-*/
+
 .Story{
   padding: 5px;
   border-style: dashed;
@@ -211,7 +223,9 @@ p, h1, h2, h3, a {
 /*-^-*/
 
 /*PFP page*/
+
 /*-Each picture representing each Alias-*/
+
 .Kreeperk{
   display: flex;
   text-align: center;
@@ -243,8 +257,11 @@ p, h1, h2, h3, a {
   background-color: lightskyblue;
 }
 /*^*/
+
 /*Links main page*/
+
 /*-Link trees loctions-*/
+
 .linksofme{
   position: absolute;
   width: 800px;
@@ -374,22 +391,67 @@ p, h1, h2, h3, a {
 }
 /*^*/
 
+/*Project pages*/
+/*-Main Project page-*/
+.ProMain{
+  background-color: rgb(255, 229, 180);
+  width: 750px;
+  padding: 10px;
+  border: 10px;
+  border-style: solid groove solid groove;
+  border-radius: 5vh;
+}
+/*-^-*/
+
+/*-Website bts page-*/
 .sitemap{
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: end;
   background-color: hsl(184, 100%, 46%);
-  width: 1920px;
-  height: 210px;
+  width: 1880px;
+  height: 200px;
+  margin-bottom: -8px;
   padding: 20px;
   border: 6px hsl(184, 100%, 64%);
   border-style: groove none none none;
 }
 
 .siteboxes{
-  background-color: aquamarine;
   width: 200px;
-  height: min-content;
   border: 7px greenyellow groove;
+  background-color: aquamarine;
   border-radius: 8px;
 }
+
+.boxxxx{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  border: 7px double;
+  background-color: rgb(59, 167, 255);
+}
+
+.croll{
+  overflow-y: scroll;
+  width: 800px;
+  height: 500px;
+}
+/*-^-*/
+
+/*-S.T.F.U project page-*/
+.wholething{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(images/1000001762.webp);
+  width: 250px;
+  height: 375px;
+  margin-top: 5000px;
+  background-color: azure;
+  border-radius: 2px;
+}
+/*-^-*/
+/*^*/
