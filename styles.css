@@ -455,3 +455,20 @@ p, h1, h2, h3, a {
 }
 /*-^-*/
 /*^*/
+
+/*Artistic Pages*/
+
+/*-Photo Gallery-*/
+
+.PhotoRegion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+  width: inherit;
+  height: 1380px;
+  padding: 20px;
+}
+
+/*-^-*/
+/*^*/
