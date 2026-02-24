@@ -1,0 +1,64 @@
+/*                                 -Order of css goes from "display settings"--width/height--padding--border--margins--text--color--anything else-*/
+
+/*Too make the scrollbars go away*/
+html{
+  overflow: scroll;
+  cursor: url(Blog_Images/cursor.png), auto;        /*<--for the mouse design*/
+}                                 /*<--Too make the scrollbars go away*/
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+/*^*/
+
+/*Font Section*/
+
+p, h1, h2, h3, a {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*^*/
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+}
+
+/*Preset classes*/
+
+/*-To quickly center items-*/
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flexdown{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/*-^-*/
+/*^*/
+
+.Blogtextblock{
+  margin-left: auto;
+  text-align: end;
+  width: 1000px;
+  min-height: 500px;
+  padding: 30px;
+  background-color: #4c23ff;
+  border: 15px ridge;
+  color: aliceblue;
+  border-radius: 30px;
+}
