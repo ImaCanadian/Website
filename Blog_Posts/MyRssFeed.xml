@@ -1,0 +1,15 @@
+<rss version="2.0">
+    <channel>
+        <title>That Canadians Website</title>
+        <description>Place for any and all news about me including any pieces of work.</description>
+        <link>https://thatcanadian.nekoweb.org/First_Blog</link>
+		
+        <item>
+            <title>First Blog!!!!</title>
+            <description>Testing out the Rss Feed and starting up my blog.</description>
+            <link>https://thatcanadian.nekoweb.org/Blog_Posts/First_Blog</link>
+            <guid>First_test_basically</guid>
+            <pubDate>Mon, 23 Feb 2026, 17:30:00 -0800</pubDate>
+        </item>
+    </channel>
+</rss>
